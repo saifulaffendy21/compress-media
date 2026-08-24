@@ -48,7 +48,7 @@ exiftool -ver
 Clone the repository and make the script executable:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/compress-media.git
+git clone https://github.com/saifulaffendy21/compress-media.git
 cd compress-media
 chmod +x compress-media.sh
 ```
