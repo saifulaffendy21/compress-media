@@ -54,7 +54,7 @@ else
     exit 1
 fi
 
-if ! ffmpeg -hide_banner -encoders 2>/dev/null | grep -q 'libx265'; then
+if ! ffmpeg -hide_banner -encoders 2>/dev/null | grep 'libx265'; then
     echo "Error: This FFmpeg installation does not provide the libx265 encoder." >&2
     exit 1
 fi
